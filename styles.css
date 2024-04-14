@@ -1,0 +1,36 @@
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh;
+  margin: 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.dice-container {
+  display: inline-block;
+}
+
+.dice {
+  width: 110px;
+  height: 110px;
+  margin-right: 25px;
+}
+
+.score-container {
+  margin-top: 25px;
+  color: white;
+}
+
+#roll-button {
+  display: block;
+  margin: 25px;
+  padding: 15px 25px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
